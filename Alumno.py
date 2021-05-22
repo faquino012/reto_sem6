@@ -245,6 +245,7 @@ class Alumno:
 
         except Exception as e:
             print(e)
+            
     def crud_alumno(self):
         try:
             while True:

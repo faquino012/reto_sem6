@@ -4,7 +4,7 @@ from psycopg2 import connect
 class Connection:
     def __init__(self, table_name):
         self.table_name = table_name
-        self.db = connect(host='localhost', user='postgres', password='12345678',
+        self.db = connect(host='localhost', user='postgres', password='123456',
                         database='Hackaton_6', port=5432)
         self.cursor = self.db.cursor()
 
